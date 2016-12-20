@@ -1,35 +1,47 @@
+
+.navbar navbar-default{
+	width: auto;
+}
+.nav navbar-nav navbar-right{
+	width: auto;
+}
 .fondo{
 	background-image: url(../img/home.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 500px;
+	margin-top: -20px;
+	
 }
+
 .banner{
 	margin-top: 170px;
 	color:#fff;
 }
 .texto{
 	margin-top: 40px;
-	margin-left: 50px;
+	
 }
 .texto h2{
 	margin-bottom: 30px;
 }
 iframe{
 	margin-bottom: 30px;
-	margin-top: 40px;
-	margin-left: 50px;
+	margin-top: 30px;
+	
 }
 .amarillo{
 	background-color: #FFFD4F;
 	background-size: cover;
 	height: 500px;
+	margin-top: 30px;
 }
 .smaller-image{
-	width: 600px;
-	height: 400px;
+
+	width: 100%;
+	height: auto;
 	margin-top: 45px;
-	margin-left: 20px;
+	
 }
 .hackathon{
 	margin-top: 50px;

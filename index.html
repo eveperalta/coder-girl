@@ -2,28 +2,37 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
 	<title>Coder Girl</title>
 </head>
 <body>
 <header>
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-xs-6 col-sm-6">
-			<h3>Code Girls</h3>
-		</div>
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+
+	 <nav class="navbar navbar-default" role="navigation">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="container-fluid">
+			<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+				<h3>Code Girls</h3>
+			</div>
+			<div class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav navbar-right">
                    <li><a href="#">Inicio</a></li>
                    <li><a href="#">Documental</a></li>
                    <li><a href="#">Hackaton</a></li>
                    <li><a href="#">Contacto</a></li>
                  </ul>
-        </div>
-     </div>
+             </div>
+		</nav>
+		</div>
+		
 	<div class="row fondo">
 		<div class="col-xs-12 col-sm-12 banner">
 			<h1 class="text-center">CHICAS QUE CAMBIAN EL MUNDO</h1>
@@ -32,39 +41,39 @@
 			<h4 class="text-center">¡Participa en nuestras actividades!</h4>
 			<button class="btn btn-primary center-block">Inscribete</button>
 		</div>	
-	</div>	
-</div>
+	</div>		
+  </div>
 </header>
 <section>
 	<div class="container-fluid">
 		<div class="row">
-		<div class="col-xs-12 col-sm-12">
+		<div class="col-sm-12">
 			<h1 class="text-center">VE NUESTRO DOCUMENTAL</h1>
 		</div>
 		</div>
 	<div class="row">
-		<div class="col-xs-5 col-sm-5 texto">
+		<div class="col-sm-6 texto">
 			<h2 class="text-center">CODE GIRLS</h2>
-			<p>El documental muestra el trabajo de diferentes equipos integrados por chicas de escuelas secundarias (provenienttes de Estados Unidos, Brasil, India y Mexico) que, junto con un mentor o una mentora que acompaña su experiencia, disponen de tres meses para crear un plan de negocios y una aplicacion que resuelva problemas en sus comunidades, en el marco de la competencia Technovation.
+			<p style="text-align: center">El documental muestra el trabajo de diferentes equipos integrados por chicas de escuelas secundarias (provenienttes de Estados Unidos, Brasil, India y Mexico) que, junto con un mentor o una mentora que acompaña su experiencia, disponen de tres meses para crear un plan de negocios y una aplicacion que resuelva problemas en sus comunidades, en el marco de la competencia Technovation.
 			De la competencia expuesta en el documental participaron 300 equipos, de los cuales 44 legaron a la semifinal, luego 6 resultaron finalistas y finalmente el ganador recibió un premio de 10.000 dólares.</p>
 		</div>
-		<div class="col-xs-5 col-sm-5">
-			<iframe class="embed-responsive-item"  width="540" height="360" src="https://www.youtube.com/embed/cRb5iel-3Ck" frameborder="0" allowfullscreen></iframe>
+		<div class="col-sm-6 embed-responsive embed-responsive-4by3">
+			<iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/cRb5iel-3Ck" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</div>
 	<div class="row amarillo">
-	<div class="col-xs-6 col-sm-6">
-		<img class="responsive-image smaller-image" src="img/hackathon.jpg" alt="Respect"/>
+	<div class="col-sm-6">
+		<img class="img-responsive smaller-image" src="img/hackathon.jpg" alt="Respect"/>
 	</div>
-	<div class="col-xs-6 col-sm-6 hackathon">
+	<div class="col-sm-6 hackathon">
 		<h2 class="text-center">HACKATHON</h2>
-		<p>¡Participa en nuestra Hackathon "Love is Respect"!</p>
-		<p>Idea soluciones a las problematicas que te presentaremos, rodeada de chicas tan geniales como tú. Nos reuniremos el 30 de septiembre desde las 10 am</p>
-		<button class="btn btn-primary">Inscribete</button>
+		<p style="text-align: center">¡Participa en nuestra Hackathon "Love is Respect"!</p>
+		<p style="text-align: center">Idea soluciones a las problematicas que te presentaremos, rodeada de chicas tan geniales como tú. Nos reuniremos el 30 de septiembre desde las 10 am</p>
+		<button class="btn btn-primary center-block">Inscribete</button>
 	</div>
 	</div>
 	<div class="row coder">
-			<div class="col-xs-4 col-sm-4 col-sm-offset-7">
+			<div class="col-sm-4 col-sm-offset-8">
                      <h3>CONTACTO</h3>
                      <address>
                          <strong>Code Girls</strong>
@@ -74,13 +83,13 @@
                     </address>
              </div>
 		<div class="row">
-			<div class="col-xs-4 col-sm-4 col-sm-offset-7">
+			<div class="col-sm-4 col-sm-offset-8">
 				<form action="submit">
 					<input type="text" class="form-control" placeholder="Nombre">
 					<input type="text" class="form-control" placeholder="Email">
 					<input type="text" class="form-control" placeholder="Asunto">
-					<textarea class="form-control" rows="8">Mensaje</textarea>
-					<button class="btn btn-primary">Inscribete</button>
+					<textarea class="form-control" rows="6">Mensaje</textarea>
+					<button class="btn btn-primary center-block">Inscribete</button>
 				</form>
 			</div>
 		</div>
@@ -94,5 +103,8 @@
 		</div>
 	</div>
 </footer>
+
+  <script src="js/bootstrap.min.js"></script>
+
 </body>
 </html>
